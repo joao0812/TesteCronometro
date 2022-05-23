@@ -11,7 +11,8 @@
     width: 100%;
     position: absolute;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .cronometro {
@@ -24,6 +25,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 
 }
 
@@ -63,4 +65,15 @@
 
 .container:hover {
     background-color: #e8a789;
+}
+
+.volta {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    top: 550px
 }
