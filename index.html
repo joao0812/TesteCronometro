@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-4">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Cronometro</title>
+</head>
+
+<body>
+    <div class="relogio">
+        <div class="cronometro">
+            <div id="cron" class="display">
+                <h1>00:00:00</h1>
+            </div>
+            <div class="botoes">
+                <div onclick="Start()" class="star container">
+                    <span>START</span>
+                </div>
+                <div onclick= "Pause()" class="pause container">
+                    <span>PAUSE</span>
+                </div>
+                <div onclick="Stop()" class="stop container">
+                    <span>STOP</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+
+</html>

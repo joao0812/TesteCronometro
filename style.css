@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.relogio {
+    background-color: #F4A27D;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.cronometro {
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #ee7139;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.display {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 60%;
+    margin: 10px 0;
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.8),
+        1px 1px 2px rgba(255, 255, 255, 0.8);
+    background-color: #f4a460;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 40%;
+    width: 100%;
+
+}
+
+.container {
+    padding: 10px 15px;
+    margin: 0 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.container:hover {
+    background-color: #e8a789;
+}
